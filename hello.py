@@ -25,3 +25,24 @@ company=input("Enter the company name ")
 print("print the user input information and this data type \n ")
 
 print(f"my name {myname} and data type--->{type(myname)} \n \n working profession {myprofession}\n  and i currenty woring in {company}")
+
+
+#operator 
+
+#  logic operator
+
+
+
+
+
+isID=False
+Token_number=int(input("Enter the token number "))
+
+if isID==True:
+    print("Enter the Holl ")
+    if isID ==True and Token_number==10:
+        print("welcome bro you are join the new company  ")
+    else:
+        print(f"pleae this token NO {Token_number} are the worng ")
+else:
+    print("bro you have no id  you are not allowed ")            
