@@ -146,7 +146,6 @@ print(f"{convert} and datatype {type(convert)} ")
 print(f"{person} and datatype {type(person)}")
 
 
-"""
 
 
 # set data strusture in the python are not store the duplicate value 
@@ -169,3 +168,6 @@ print(myunion)
 print(myset.difference(myset2))
 
 
+
+
+"""
