@@ -1,1 +1,0 @@
-import name_main
