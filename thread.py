@@ -36,6 +36,43 @@ print("program excution time is ",endingtime-starting)
 
 
 
+# creating the multithread 
+
+start=time.time()
+
+mythread_1=threading.Thread(
+     target=welcome,
+     args=(firstlist,)
+)
+mythread_2=threading.Thread(
+     target=welcome,
+     args=(secondslist,)
+)
+
+mythread_3=threading.Thread(
+     target=welcome,
+     args=(thirdlist,)
+)
+
+mythread_1.start()
+mythread_2.start()
+mythread_3.start()
+
+mythread_1.join()
+mythread_2.join()
+mythread_3.join()
+end=time.time()
+
+print(f"apply the  multithreading and program exuction time see the time   {end-start}  ")
+
+
+
+
+
+
+
+
+
 
 
 
