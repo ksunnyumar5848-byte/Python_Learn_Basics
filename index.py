@@ -154,3 +154,21 @@ Cricketer["name"]="MSD"
 print(Cricketer["name"])
 
 
+
+# some importent methods in the dic
+
+
+keyitem=Cricketer.keys()
+
+valitems=Cricketer.values()
+
+print(keyitem)
+
+print(valitems)
+
+
+print(Cricketer.get("name"))  # this methods are the find which elemnet are the persent in the dic 
+
+
+
+
