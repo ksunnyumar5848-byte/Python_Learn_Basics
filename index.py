@@ -122,3 +122,35 @@ whichele=mytuppes.index("hello")
 print(whichele)
 
 
+
+
+
+
+
+
+
+
+Cricketer={
+    "name":"surya kumar yadav",
+    "age":35,
+    "RUNS":3000,
+    "match":{
+     "ODI":"20 MORE ",
+     "T20":"BEST PERFORMANCE",
+     "TEST":"DEBAUT"
+    }
+}
+
+
+ # aceess in the dictionry
+
+print(Cricketer["age"])
+print(Cricketer["match"])
+
+#updating in the list dic
+
+Cricketer["name"]="MSD"
+
+print(Cricketer["name"])
+
+
