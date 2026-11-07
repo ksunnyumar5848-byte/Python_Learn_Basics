@@ -79,4 +79,8 @@ name=["sunny","age","pradeep","mukesh","ronak"]
 
 print(name)
 
+## Access in the list through the index number 
+
+print(name[0],name[3])
+
 
