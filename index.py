@@ -84,3 +84,8 @@ print(name)
 print(name[0],name[3])
 
 
+for i in range(len(name)):
+    data=name[i]
+    print(f"this is your the data {data}")
+
+
