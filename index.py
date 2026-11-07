@@ -86,6 +86,20 @@ print(name[0],name[3])
 
 
 
+name[0]="Rahul Bhai"
+
+name.append("new member ")
+name.extend("Ranjana kumari ")
+name.extend("AND")
+items=name.count("sunny")
+newlist=name.copy()
+
+print(f" this are new list it copy list items ......{newlist}")
+
+print(f" this element are how many times {items} ")
+
+print(f" this methods are show the list items {name}")
+
 
 for i in range(len(name)):
     data=name[i]
